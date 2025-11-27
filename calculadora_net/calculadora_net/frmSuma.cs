@@ -1,16 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/*
+ * Created by SharpDevelop.
+ * User: licge
+ * Date: 11/27/2025
+ * Time: 4:43 PM
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace calculadora_net
 {
 	/// <summary>
-	/// Description of MainForm.
+	/// Description of frmSuma.
 	/// </summary>
-	public partial class MainForm : Form
+	public partial class frmSuma : Form
 	{
-		public MainForm()
+		public frmSuma()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -20,13 +27,6 @@ namespace calculadora_net
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
-		}
-		
-		void Button1Click(object sender, EventArgs e)
-		{
-			int suma=0;
-			suma=int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
-			label1.Text = suma.ToString();
 		}
 	}
 }
